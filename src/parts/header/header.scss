@@ -4,7 +4,7 @@ header {
     background-position: top center;
     min-height: 637px;
     position: relative;
-    font-family: "BebasRegular";
+    font-family: "BebasBold";
 }
 header a{
     color: #FFF;
@@ -17,12 +17,24 @@ header a{
     top: 0;
     width: 100%;
     background-color: rgba(0,0,0,.65);
+    padding: 22px 0px;
+}
+.top_line a{
+    font-size: 21px;
+    border-bottom: #fff inset 1px;
+    -webkit-transform: all .25s;
+    -o-transform: all .25s;
+    transform: all .25s;
+}
+.top_line a:hover{
+    border-bottom: transparent 1px dashed;
 }
 .top_address{
-    padding-left: 60px;
+    padding-left: 40px;
     background-image: url(../images/topmap.png);
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: left top;
+    line-height: 26px;
 }
 .top_address strong{
     display: block;
@@ -31,7 +43,5 @@ header a{
     text-transform: uppercase;
     font-size: 31px;
 }
-.top_address {
-    font-size: 21px;
-    border-bottom: #fff dashed 1px;
-}
+
+
