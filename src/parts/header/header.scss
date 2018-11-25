@@ -13,8 +13,6 @@ header a{
     min-height: 97px;
     -webkit-box-shadow: rgba(255,255,255,3) 0 0 0 1px;
     box-shadow: rgba(255,255,255,3) 0 0 0 1px;
-    position: absolute;
-    top: 0;
     width: 100%;
     background-color: rgba(0,0,0,.65);
     padding: 22px 0px;
@@ -66,4 +64,35 @@ header a{
 .ta_right span{
     color: #fff
 }
+header h1{
+    text-align: center;
+    color: #FFF;
+    margin-top: 58px;
+    font-size: 40px;
+    text-shadow: 0 3px rgba(0,0,0,0.55);
+    font-family: "BebasRegular";
+}
+.button{
+    display: inline-block;
+    background-color: buttonface;
+    background-color: #D12F22;
+    height: 50px;
+    vertical-align: middle;
+    padding: 0 25px;
+    line-height: 50px;
+    font-size: 20px;
+    border-bottom: #AC160A 4px solid;
+}
+header .button{
+    margin-right: 20px;
+}
+.st_button{
+    line-height: 18px;
+    padding-left: 63px;
+    padding-top: 7px;
+    text-align: left;
+    background-image: url(../images/camera-icon.png);
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
 
+}
