@@ -1,0 +1,28 @@
+.top_menu {
+	height: 62px;
+	background-color: #242424;
+	-webkit-box-shadow: rgba(255,255,255,3) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,3) 0 0 0 1px;
+	font-family: "BebasRegular";
+	text-transform: uppercase;
+}
+.top_menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.top_menu a{
+	color: #fff;
+	font-size: 20px;
+	padding: 0 26px;
+	display: block;
+	line-height: 62px;
+	border-left: #3b3b3b 1px solid;
+}
+.top_menu li{
+	float: left;
+}
+.top_menu li.active a,
+.top_menu li:hover a{
+	background-color: #050505;
+}
