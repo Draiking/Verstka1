@@ -83,6 +83,12 @@ header h1{
     font-size: 20px;
     border-bottom: #AC160A 4px solid;
 }
+.button:hover{
+    background-color: #E64437;
+}
+.button:active{
+    background-color: #b81609;
+}
 header .button{
     margin-right: 20px;
 }
@@ -94,5 +100,9 @@ header .button{
     background-image: url(../images/camera-icon.png);
     background-repeat: no-repeat;
     background-position: 8px 8px;
-
+}
+.button_top{
+    position: absolute;
+    width: 100%;
+    bottom: 32px;
 }
