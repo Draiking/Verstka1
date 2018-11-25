@@ -41,7 +41,29 @@ header a{
     color: #d12f22;
     font-weight: normal;
     text-transform: uppercase;
-    font-size: 31px;
+    font-size: 32px;
+}
+.top_line .logo{
+    position: absolute;
+    border-bottom: none;
+    margin-top: -20px;
+}
+.top_line .logo:hover{
+    border-bottom: none;
+}
+.logo_wrap {
+    position: relative;
+    widht: 240px;
+    margin: auto;
+    left: 50px;
 }
 
+.ta_right{
+    background-image: none;
+    padding-left: 0;
+    text-align: right;
+}
+.ta_right span{
+    color: #fff
+}
 
