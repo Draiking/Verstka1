@@ -45,3 +45,32 @@
 .top_menu li:nth-child(6) a {
 	background-position: -718px 20px ;
 }
+.waranty{
+	float: right;
+	color: #fff;
+	cursor: default;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	padding: 3px 5px;
+	line-height: 16px;
+	margin-top: 10px;
+}
+.w_right,
+.w_left{
+	display: inline-block;
+	vertical-align: top;
+}
+.w_left{
+	font-family: "BebasBold";
+	font-size: 20px;
+	margin-top: 10px;
+	margin-right: 7px;
+}
+.w_left span{
+	font-size: 34px;
+	font-family: BebasBold;
+}
+.w_right{
+	font-family: "RobotoRegular";
+
+}
