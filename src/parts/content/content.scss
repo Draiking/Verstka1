@@ -163,8 +163,26 @@ section h2 {
 	font-family: "BebasRegular";
 	font-size: 20px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .mc_item a:hover h4,
 .mc_item_wrap.active h4 {
 	text-decoration: underline;
+}
+.mc_item_wrap.active,
+.mc_item_wrap:hover {
+	background-color: #2a2a2a;
+}
+.mc_toggle {
+	background-color: #212121;
+	position: relative;
+	height: 25px;
+	cursor: pointer;
+	background-image: url(../../images/strela.png);
+	background-repeat: no-repeat;
+	background-position: 73px;
+}
+.mc_item_wrap.active .mc_toggle
+.mc_item_wrap:hover .mc_toggle {
+	background-color: #353535;
 }
