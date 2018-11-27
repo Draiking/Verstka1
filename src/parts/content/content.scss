@@ -138,7 +138,7 @@ section h2 {
 	height: 85px;
 	width: 130px;
 	background-image: url("../../images/mcitem.png");
-	margin: 10px auto;
+	margin: 15px auto 10px;
 }
 .mc_item_wrap:nth-child(1) span {
 	 background-position: 9px 0 ;
@@ -157,4 +157,14 @@ section h2 {
 }
 .mc_item_wrap:nth-child(6) span {
 	background-position: -755px 0 ;
+}
+.mc_item h4 {
+	font-weight: normal;
+	font-family: "BebasRegular";
+	font-size: 20px;
+	margin-top: 10px;
+}
+.mc_item a:hover h4,
+.mc_item_wrap.active h4 {
+	text-decoration: underline;
 }
