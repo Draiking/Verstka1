@@ -197,15 +197,17 @@ section h2 {
 	border-radius: 10px;
 	background-color: #353535;
 	text-shadow: 2px 3px 3px #93968f, -3px 3px 5px #58d1e3;
-	padding: 0;
+	padding: 15px 0;
+	z-index:10;
+	display: none;
 }
 .mc_item_wrap.active > ul li {
-	float: left;
+	display: inline-block;
 	font-family: "BebasRegular";
 
 }
 .mc_item_wrap.active > ul li a {
-	padding: 0 24px;
+	padding: 0 20px;
 	font-size: 20px;
 	text-decoration: underline;
 }
