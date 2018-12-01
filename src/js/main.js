@@ -1,8 +1,31 @@
 $(document).ready(function() {
-	
-	$(".mc_toggle").click(function () {
-		$(this).parent().parent().children("ul").slideToggle();
-    })
+
+
+	$('#show-query').click(function () {
+		$('#form-query').toggleClass('d-block')
+    });
+
+	$('#send').click(function () {
+        $('#form-query').removeClass('d-block');
+    });
+
+
+
+	$(".mc_toggle").click(function($event) {
+
+		$(".mc_item_wrap").each(function(index, item){
+			var currentElement = $event.target.parentElement.parentElement;
+			if(currentElement === item){
+                item.classList.toggle('active');
+			} else {
+                item.classList.remove('active');
+			}
+
+		});
+
+	});
+
+
 
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
