@@ -5,6 +5,10 @@
 	display: block;
 }
 
+.n-block {
+	display: none;
+}
+
 .mx-auto {
 	margin-left: auto;
 	margin-right: auto;
@@ -49,4 +53,8 @@
 
 .w-75{
 	width: 75%;
+}
+.button-close {
+	background-color: red;
+	color: black;
 }

@@ -265,7 +265,9 @@ section h2 {
 
 
 }
-
+.button {
+	margin-top: 3%;
+}
 .form-query {
 	position: fixed;
 	top: 50%;
@@ -273,6 +275,18 @@ section h2 {
 	transform: translate(-50%, -50%);
 	z-index: 1100;
 	display: none;
+	background-color: #0095b7;
+	border-radius: 10px 10px;
+}
+.form-control {
+	background-color: #fbfffb;
+	color: black;
+}
+.button-close {
+	float: right;
+	display: inline-block;
+	margin-top: -50px;
+	border: 0px;
 }
 
 

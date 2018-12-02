@@ -2,7 +2,12 @@ $(document).ready(function() {
 
 
 	$('#show-query').click(function () {
-		$('#form-query').toggleClass('d-block')
+		$('#form-query').addClass('d-block')
+    });
+	$(function () {
+		$('#close').click(function () {
+			$("#form-query").removeClass('d-block')
+        })
     });
 
 	$('#send').click(function () {
@@ -143,7 +148,7 @@ $(document).ready(function() {
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
 	$("form").submit(function() {
-		$.ajax({
+	/*	$.ajax({
 			type: "GET",
 			url: "mail.php",
 			data: $("form").serialize()
@@ -152,7 +157,7 @@ $(document).ready(function() {
 			setTimeout(function() {
 				$.fancybox.close();
 			}, 1000);
-		});
+		}); */
 		return false;
 	});
 	
