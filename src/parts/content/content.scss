@@ -245,7 +245,7 @@ section h2 {
 			z-index:10;
 			top: calc(100% + 1px);
 			left: 0;
-
+			word-spacing: 5px;
 
 			li {
 				display: inline-block;
@@ -288,6 +288,32 @@ section h2 {
 	margin-top: -50px;
 	border: 0px;
 }
-
-
+article.content {
+	background-color: #E9E9E9;
+}
+.art_h2 {
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+}
+.art_h2::after {
+	content: "";
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background-image: url("../../images/poloska3.png");
+	background-repeat: no-repeat;
+	left: 113px;
+	top: 23px;
+}
+.art_h2::before {
+	content: "";
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background-image: url("../../images/poloska4.png");
+	background-repeat: no-repeat;
+	right: 113px;
+	top: 23px;
+}
 
