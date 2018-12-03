@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+    $('#s_show-query').click(function () {
+        $('#s_form-query').addClass('d-block')
+    });
+    $(function () {
+        $('#s_close').click(function () {
+            $("#s_form-query").removeClass('d-block')
+        })
+    });
+    $('#s_send').click(function () {
+        $('#s_form-query').removeClass('d-block');
+    });
 
 	$('#show-query').click(function () {
 		$('#form-query').addClass('d-block')
