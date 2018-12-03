@@ -327,18 +327,30 @@ p.p_art {
 }
 .home_items {
 	background-color: #D6D6D6;
-	padding: 40px 15px;
+	padding: 40px 40px;
 	margin-top: 40px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 
 }
 .hi_item {
+
 	font-size: 14px;
 	text-align: center;
 	color: black;
+	margin-bottom: 60px;
+	margin-top: 60px;
 }
 .hi_item img {
-	max-width: 100%;
+	width: 450px; height: 350px;
 	border-top: #AC160A 8px solid;
+}
+.s_para {
+	font-size: 40px;
+	font-family: BebasBold;
+}
+.s_content .button {
+	text-align: center;
+	margin-top: 30px;
+	border: #000000 1px solid;
 }
 
