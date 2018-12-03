@@ -348,13 +348,14 @@ p.p_art {
 	font-size: 40px;
 	font-family: BebasBold;
 }
-s_show-query {
-	margin-top: 38px;
+#s_show-query {
+	margin-top: 14%;
 }
 .s_img {
-	position: absolute;
+	position: relative;
 	max-width: 100%;
-	left: -10px;
+	left: -20px;
+	bottom: 10px;
 }
 .s_p {
 	font-family: RobotoRegular;
